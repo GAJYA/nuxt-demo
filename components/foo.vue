@@ -2,7 +2,9 @@
   <div>
       <h1>foopage</h1>
       <ul>
-          <li v-for="item in posts" :key="item.id"> {{ item.title }}</li>
+          <li v-for="item in posts" :key="item.id"> 
+              <nuxt-link :to="'/article/'+item.id">{{ item.title }}</nuxt-link>
+          </li>
       </ul>
   </div>
 </template>
