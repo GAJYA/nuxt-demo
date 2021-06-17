@@ -1,12 +1,13 @@
 <template>
   <div>
-      <h1>Hello World</h1>
+      <h1>layouts/foo组件</h1>
+      <Nuxt />
   </div>
 </template>
 
 <script>
 export default {
-  layout: 'foo'
+
 }
 </script>
 
